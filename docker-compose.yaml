@@ -10,7 +10,10 @@ services:
       - "8080:8080"
     environment:
       LANG: pt_BR.UTF-8
-  #        volumes:
+    volumes:
+      - ./kettle/:/root/.kettle/
+      - ./hsqldb/:/biserver-ce/data/hsqldb
+      - ./jackrabbit:/biserver-ce/pentaho-solutions/system/jackrabbit/repository
   #            - pentaho-hsqldb-data:/opt/pentaho/server/pentaho-server/data/hsqldb
   #            - pentaho-jackrabbit-data:/opt/pentaho/server/pentaho-server/pentaho-solutions/system/jackrabbit/repository
 
