@@ -11,11 +11,8 @@ services:
     environment:
       LANG: pt_BR.UTF-8
     volumes:
-      - ./kettle/:/root/.kettle/
-      - ./hsqldb/:/biserver-ce/data/hsqldb
-      - ./jackrabbit:/biserver-ce/pentaho-solutions/system/jackrabbit/repository
-  #            - pentaho-hsqldb-data:/opt/pentaho/server/pentaho-server/data/hsqldb
-  #            - pentaho-jackrabbit-data:/opt/pentaho/server/pentaho-server/pentaho-solutions/system/jackrabbit/repository
+      - pentaho-hsqldb-data:/biserver-ce/data/hsqldb
+      - pentaho-jackrabbit-data:/biserver-ce/pentaho-solutions/system/jackrabbit/repository
 
   # PostgreSQL Database for Pentaho BI
   pentaho-pg:
@@ -31,6 +28,6 @@ services:
       - 5432:5432
 
 volumes:
-  #    pentaho-hsqldb-data:
-  #    pentaho-jackrabbit-data:
+  pentaho-hsqldb-data:
+  pentaho-jackrabbit-data:
   pentaho-pg-data:
