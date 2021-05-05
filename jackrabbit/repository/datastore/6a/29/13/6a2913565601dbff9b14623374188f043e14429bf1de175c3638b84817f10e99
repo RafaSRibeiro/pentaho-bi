@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdf>
+  <title>sad</title>
+  <author></author>
+  <description>sad</description>
+  <icon></icon>
+  <style></style>
+  <rendererType>bootstrap</rendererType>
+  <require>true</require>
+</cdf>

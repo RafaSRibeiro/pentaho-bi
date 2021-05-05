@@ -1,0 +1,4279 @@
+{
+  "components" : {
+    "rows" : [
+      {
+        "id" : "CHARTS",
+        "name" : "Charts",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "description" : "Group",
+            "value" : "Charts",
+            "type" : "Label",
+            "id" : "4019eee1-a007-2053-762a-c7ed8d1f7063",
+            "properties" : [ ]
+          }
+        ]
+      },
+      {
+        "id" : "0f096ae8-90c2-fa8c-7f73-6c0d938b4024",
+        "type" : "ComponentscccBarChart",
+        "typeDesc" : "CCC Bar Chart",
+        "parent" : "CHARTS",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "parcelas_vencidas",
+            "description" : "Name",
+            "tooltip" : "Name",
+            "type" : "Id",
+            "order" : 5,
+            "classType" : "",
+            "id" : "f5704a9b-44d4-49ff-748b-ac688fdc853f"
+          },
+          {
+            "name" : "title",
+            "value" : "Parcelas Vencidas",
+            "description" : "Title",
+            "tooltip" : "Title",
+            "type" : "String",
+            "order" : 1,
+            "classType" : "",
+            "id" : "5cead738-3bc5-47fd-4641-1565d357296e"
+          },
+          {
+            "name" : "listeners",
+            "value" : "[]",
+            "description" : "Listeners",
+            "tooltip" : "Parameters to listen to",
+            "type" : "Listeners",
+            "order" : 13,
+            "classType" : "",
+            "id" : "d421d4ef-e65c-dd07-2a97-ed8771f7430c"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "description" : "Parameters",
+            "tooltip" : " Parameters to pass to the component",
+            "type" : "ValuesArray",
+            "order" : 40,
+            "classType" : "",
+            "id" : "3bbda442-712f-50a4-1d18-d1a8b83fe6e9"
+          },
+          {
+            "name" : "dataSource",
+            "value" : "parcelas_vencidas",
+            "description" : "Datasource",
+            "tooltip" : "DataSource to be used in this selector",
+            "type" : "Datasource",
+            "order" : 43,
+            "classType" : "",
+            "id" : "4744348e-d583-0c1a-7a2a-b362b9fae9ab"
+          },
+          {
+            "name" : "height",
+            "value" : "250",
+            "description" : "Height",
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "order" : 50,
+            "classType" : "",
+            "id" : "1dd6a387-285a-cb50-cf7d-fadae83ecc5b"
+          },
+          {
+            "name" : "priority",
+            "value" : 5,
+            "description" : "Priority",
+            "tooltip" : "Priority for component execution component. Lower values have higher priority",
+            "type" : "Integer",
+            "order" : 50,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "refreshPeriod",
+            "value" : "",
+            "description" : "Refresh Period",
+            "tooltip" : "Time interval (in seconds) to refresh the component. If 0 or not set component won\u0027t refresh.",
+            "type" : "Integer",
+            "order" : 50,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "width",
+            "value" : "600",
+            "description" : "Width",
+            "tooltip" : "Element width, in pixels ",
+            "type" : "Integer",
+            "order" : 50,
+            "classType" : "",
+            "id" : "c6304734-6024-5fbd-d289-0c013832b414"
+          },
+          {
+            "name" : "silent",
+            "value" : "false",
+            "description" : "Don\u0027t Block the UI While Executing",
+            "tooltip" : "If true, the UI is not blocked while executing.",
+            "type" : "Boolean",
+            "order" : 51,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "clearsBeforePreExecution",
+            "value" : "true",
+            "description" : "Clears Before Pre Execution",
+            "tooltip" : "If false, the clear is not executed before the Pre Execution phase.",
+            "type" : "Boolean",
+            "order" : 52,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "colors",
+            "value" : "[]",
+            "description" : "colors",
+            "tooltip" : "The colors of a color axis.",
+            "type" : "Array",
+            "order" : 67,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "htmlObject",
+            "value" : "${h:Panel_1}",
+            "description" : "HtmlObject",
+            "tooltip" : "HtmlObject to prompt",
+            "type" : "HtmlObject",
+            "order" : 90,
+            "classType" : "",
+            "id" : "af30873a-5ba1-e12b-4ee0-63b769415253"
+          },
+          {
+            "name" : "executeAtStart",
+            "value" : "true",
+            "description" : "Execute at start",
+            "tooltip" : "Execute at start?",
+            "type" : "Boolean",
+            "order" : 91,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "preExecution",
+            "value" : "",
+            "description" : "Pre Execution",
+            "tooltip" : "Function to be executed before the component is updated",
+            "type" : "JavaScript",
+            "order" : 92,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "postExecution",
+            "value" : "",
+            "description" : "Post Execution",
+            "tooltip" : "Function to be executed after the component is updated",
+            "type" : "JavaScript",
+            "order" : 93,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "postFetch",
+            "value" : "",
+            "description" : "Post Fetch",
+            "tooltip" : "Code executed after this component\u0027s data is fetched from the server",
+            "type" : "JavaScript",
+            "order" : 93,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "preChange",
+            "value" : "",
+            "description" : "Pre Change",
+            "tooltip" : "Function to be executed before the component is changed. It\u0027s a function of the type function(value){return value}, and can be used for validation",
+            "type" : "JavaScript",
+            "order" : 94,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "postChange",
+            "value" : "",
+            "description" : "Post Change",
+            "tooltip" : "Function to be executed after the component is changed. It\u0027s a function of the type function(value){...}",
+            "type" : "JavaScript",
+            "order" : 95,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "extensionPoints",
+            "value" : "[]",
+            "description" : "Extension points",
+            "tooltip" : "CCC Extension points",
+            "type" : "EditorValuesArray",
+            "order" : 99,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltip",
+            "value" : "",
+            "description" : "Tooltip",
+            "tooltip" : "Tooltip to be displayed on component\u0027s mouse hover",
+            "type" : "Html",
+            "order" : 99,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "renderMode",
+            "value" : "total",
+            "description" : "Render mode",
+            "tooltip" : "Indicates the type of render to use when updating the component.",
+            "type" : "renderModeCustom",
+            "order" : 100,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataAdditiveMode",
+            "value" : false,
+            "description" : "New data adds to existing data",
+            "tooltip" : "Indicates if data is added or replaces the existing data.",
+            "type" : "Boolean",
+            "order" : 101,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "animate",
+            "value" : true,
+            "description" : "Animate",
+            "tooltip" : "Indicates if a chart should show an entry animation, every time it is fully rendered.",
+            "type" : "Boolean",
+            "order" : 202,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "barOrthoSizeMin",
+            "value" : 1.5,
+            "description" : "Bar Ortho Size Min",
+            "tooltip" : "The minimum height of a non-null valued bar, in pixel units.",
+            "type" : "Float",
+            "order" : 206,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "barSizeMax",
+            "value" : "",
+            "description" : "Bar Size Max",
+            "tooltip" : "The maximum width of a bar, in pixel units.",
+            "type" : "Float",
+            "order" : 207,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "barSizeRatio",
+            "value" : "",
+            "description" : "Bar Size Ratio",
+            "tooltip" : "The percentage of the grouped bar width versus the space between grouped bars (does not apply to stacked bars).",
+            "type" : "Float",
+            "order" : 208,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "barStackedMargin",
+            "value" : 0,
+            "description" : "Bar Stacked Margin",
+            "tooltip" : "The space between bars of a given stack, in pixel units (applies to stacked bars).",
+            "type" : "Float",
+            "order" : 209,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSize",
+            "value" : "",
+            "description" : "Base Axis Band Size",
+            "tooltip" : "The size, in pixels, of the bands used to represent the discrete domain values (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 210,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSizeMax",
+            "value" : "",
+            "description" : "Base Axis Band Size Max",
+            "tooltip" : "The maximum size, in pixels, of the bands used to represent the discrete domain values (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 211,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSizeMin",
+            "value" : "",
+            "description" : "Base Axis Band Size Min",
+            "tooltip" : "The minimum size, in pixels, of the bands used to represent the discrete domain values (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 212,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSpacing",
+            "value" : "",
+            "description" : "Base Axis Band Spacing",
+            "tooltip" : "The space, in pixels, separating/surrounding bands (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 213,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSpacingMax",
+            "value" : "",
+            "description" : "Base Axis Band Spacing Max",
+            "tooltip" : "The maximum space, in pixels, separating/surrounding bands (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 214,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisBandSpacingMin",
+            "value" : "",
+            "description" : "Base Axis Band Spacing Min",
+            "tooltip" : "The minimum space, in pixels, separating/surrounding bands (applies to discrete axes).",
+            "type" : "Float",
+            "order" : 215,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisClickAction",
+            "value" : "",
+            "description" : "Base Axis Click Action",
+            "tooltip" : "A callback function that is called when the user clicks on a tick label (applies to discrete axes).",
+            "type" : "JavaScript",
+            "order" : 216,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisDoubleClickAction",
+            "value" : "",
+            "description" : "Base Axis Double Click Action",
+            "tooltip" : "A callback function that is called when the user double-clicks on a tick label (applies to discrete axes).",
+            "type" : "JavaScript",
+            "order" : 222,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisFont",
+            "value" : "",
+            "description" : "Base Axis Font",
+            "tooltip" : "The font used by the panel.",
+            "type" : "String",
+            "order" : 226,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisGrid",
+            "value" : "",
+            "description" : "Base Axis Grid",
+            "tooltip" : "Indicates if grid rules are drawn separating discrete values or at each major continuous tick.",
+            "type" : "Boolean",
+            "order" : 227,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisLabelDesiredAngles",
+            "value" : "[]",
+            "description" : "Base Axis Label Desired Angles",
+            "tooltip" : "List of angles to try when overlappedLabelsMode is \u0027rotate\u0027 or \u0027rotatethenhide\u0027 (applies to normal discrete axes).",
+            "type" : "Array",
+            "order" : 228,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisLabelRotationDirection",
+            "value" : "",
+            "description" : "Base Axis Label Rotation Direction",
+            "tooltip" : "Controls the rotation direction of the labels (applies to normal discrete axes).",
+            "type" : "cccBaseAxisLabelRotationDirectionCustom",
+            "order" : 229,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisLabelSpacingMin",
+            "value" : "",
+            "description" : "Base Axis Label Spacing Min",
+            "tooltip" : "The minimum spacing between tick labels, in em units (does not apply to discrete-hierarchical axes).",
+            "type" : "Float",
+            "order" : 230,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisOffset",
+            "value" : 0,
+            "description" : "Base Axis Offset",
+            "tooltip" : "The percentage padding, on each of the sides of the plot panel that are orthogonal to the axis orientation.",
+            "type" : "Float",
+            "order" : 232,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisOverlappedLabelsMode",
+            "value" : "",
+            "description" : "Base Axis Overlapped Labels Mode",
+            "tooltip" : "Controls how labels are laid out when they overlap (applies to normal discrete axes).",
+            "type" : "cccBaseAxisOverlappedLabelsModeCustom",
+            "order" : 234,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisPosition",
+            "value" : "",
+            "description" : "Base Axis Position",
+            "tooltip" : "The position of the axis panel.",
+            "type" : "cccBaseAxisPositionCustom",
+            "order" : 235,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisSize",
+            "value" : "",
+            "description" : "Base Axis Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 239,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisSizeMax",
+            "value" : "",
+            "description" : "Base Axis Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 240,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTickFormatter",
+            "value" : "",
+            "description" : "Base Axis Tick Formatter",
+            "tooltip" : "A tick formatter function.",
+            "type" : "JavaScript",
+            "order" : 243,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTicks",
+            "value" : true,
+            "description" : "Base Axis Ticks",
+            "tooltip" : "Indicates if ticks are shown for each tick value (does not apply to discrete-hierarchical axes).",
+            "type" : "Boolean",
+            "order" : 244,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitle",
+            "value" : "",
+            "description" : "Base Axis Title",
+            "tooltip" : "The axis title and title options.",
+            "type" : "String",
+            "order" : 248,
+            "classType" : "",
+            "id" : "d048a6f7-b2cc-6d29-c356-115e2d85c8ed"
+          },
+          {
+            "name" : "baseAxisTitleAlign",
+            "value" : "",
+            "description" : "Base Axis Title Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccBaseAxisTitleAlignCustom",
+            "order" : 249,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitleFont",
+            "value" : "",
+            "description" : "Base Axis Title Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 250,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitleMargins",
+            "value" : "0",
+            "description" : "Base Axis Title Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 251,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitleSize",
+            "value" : "",
+            "description" : "Base Axis Title Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 252,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitleSizeMax",
+            "value" : "",
+            "description" : "Base Axis Title Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 253,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTitleVisible",
+            "value" : "",
+            "description" : "Base Axis Title Visible",
+            "tooltip" : "Indicates if the title panel is visible.",
+            "type" : "Boolean",
+            "order" : 254,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTooltipAutoContent",
+            "value" : "value",
+            "description" : "Base Axis Tooltip Auto Content",
+            "tooltip" : "Indicates the type of automatic content generated for the tooltip of axis\u0027 labels (applies to discrete axes).",
+            "type" : "cccBaseAxisTooltipAutoContentCustom",
+            "order" : 255,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTooltipEnabled",
+            "value" : true,
+            "description" : "Base Axis Tooltip Enabled",
+            "tooltip" : "Indicates if the axis\u0027 labels show tooltips (applies to discrete axes).",
+            "type" : "Boolean",
+            "order" : 256,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisTooltipFormat",
+            "value" : "",
+            "description" : "Base Axis Tooltip Format",
+            "tooltip" : "A callback function that is called to build the tooltip of an axis\u0027 labels (applies to discrete axes).",
+            "type" : "JavaScript",
+            "order" : 257,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "baseAxisVisible",
+            "value" : true,
+            "description" : "Base Axis Visible",
+            "tooltip" : "Indicates if the axis panel is shown.",
+            "type" : "Boolean",
+            "order" : 258,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "categoryRole",
+            "value" : "",
+            "description" : "Category Role",
+            "tooltip" : "The category visual role is a plot-level visual role that represents a generic logical grouping of the data points.",
+            "type" : "String",
+            "order" : 271,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "clearSelectionMode",
+            "value" : "emptySpaceClick",
+            "description" : "Clear Selection Mode",
+            "tooltip" : "Controls if and how the selection can be cleared by the user.",
+            "type" : "cccClearSelectionModeCustom",
+            "order" : 272,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "clickable",
+            "value" : false,
+            "description" : "Clickable",
+            "tooltip" : "Indicates if the chart is clickable by the user.",
+            "type" : "Boolean",
+            "order" : 273,
+            "classType" : "",
+            "id" : "4f6b338f-15f8-35c3-b8f3-825e446d4166"
+          },
+          {
+            "name" : "clickAction",
+            "value" : "",
+            "description" : "Click Action",
+            "tooltip" : "A callback function that is called when the user clicks on a visual element.",
+            "type" : "JavaScript",
+            "order" : 274,
+            "classType" : "",
+            "id" : "1ec73e03-bc9d-44f8-8543-1903ba236cf5"
+          },
+          {
+            "name" : "color2AxisColors",
+            "value" : "[]",
+            "description" : "Color 2 Axis Colors",
+            "tooltip" : "The colors of a color axis.",
+            "type" : "Array",
+            "order" : 275,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisLegendClickMode",
+            "value" : "toggleVisible",
+            "description" : "Color 2 Axis Legend Click Mode",
+            "tooltip" : "What happens when the user clicks a legend item (applies to color axes of discrete domain).",
+            "type" : "cccColor2AxisLegendClickModeCustom",
+            "order" : 276,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisLegendDrawLine",
+            "value" : "",
+            "description" : "Color 2 Axis Legend Draw Line",
+            "tooltip" : "Forces a rule to be shown or not in the marker zone (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 277,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisLegendDrawMarker",
+            "value" : "",
+            "description" : "Color 2 Axis Legend Draw Marker",
+            "tooltip" : "Forces a shape to be shown or not in the marker zone (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 278,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisLegendShape",
+            "value" : "",
+            "description" : "Color 2 Axis Legend Shape",
+            "tooltip" : "Forces a given shape to be used in the marker zone (applies to color axes of discrete domain).",
+            "type" : "cccColor2AxisLegendShapeCustom",
+            "order" : 279,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisLegendVisible",
+            "value" : true,
+            "description" : "Color 2 Axis Legend Visible",
+            "tooltip" : "Indicates if the legend items of the color axis should be visible (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 280,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisPreserveMap",
+            "value" : false,
+            "description" : "Color 2 Axis Preserve Map",
+            "tooltip" : "Indicates if the color map used in the first render is to be preserved, regardless of having been explicitly specified through or inferred from .",
+            "type" : "Boolean",
+            "order" : 281,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisTransform",
+            "value" : "",
+            "description" : "Color 2 Axis Transform",
+            "tooltip" : "The color transform function.",
+            "type" : "JavaScript",
+            "order" : 282,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "color2AxisUnbound",
+            "value" : "",
+            "description" : "Color 2 Axis Unbound",
+            "tooltip" : "The color to use when an optional color role is unbound.",
+            "type" : "String",
+            "order" : 283,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "colorPreserveMap",
+            "value" : false,
+            "description" : "Color Preserve Map",
+            "tooltip" : "Indicates if the color map used in the first render is to be preserved, regardless of having been explicitly specified through or inferred from .",
+            "type" : "Boolean",
+            "order" : 290,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "colorRole",
+            "value" : "",
+            "description" : "Color Role",
+            "tooltip" : "The color visual role is a plot-level visual role that is visually encoded by the color of visual elements.",
+            "type" : "String",
+            "order" : 291,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "colorTransform",
+            "value" : "",
+            "description" : "Color Transform",
+            "tooltip" : "The color transform function.",
+            "type" : "JavaScript",
+            "order" : 296,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "colorUnbound",
+            "value" : "",
+            "description" : "Color Unbound",
+            "tooltip" : "The color to use when an optional color role is unbound.",
+            "type" : "String",
+            "order" : 297,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "compatVersion",
+            "value" : 3,
+            "description" : "Compatibility Version",
+            "tooltip" : "The CCC version that the chart should run in.",
+            "type" : "Float",
+            "order" : 299,
+            "classType" : "",
+            "id" : "4fe7ff8b-710f-628e-592c-e9cf2d94a14f"
+          },
+          {
+            "name" : "contentMargins",
+            "value" : "",
+            "description" : "Content Margins",
+            "tooltip" : "The margins of the root content panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 300,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "contentPaddings",
+            "value" : "",
+            "description" : "Content Paddings",
+            "tooltip" : "The paddings of the root content panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 301,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "crosstabMode",
+            "value" : "true",
+            "description" : "Crosstab Mode",
+            "tooltip" : "Indicates if the data source is in the crosstab format, or, when false, the relational format.",
+            "type" : "Boolean",
+            "order" : 302,
+            "classType" : "",
+            "id" : "6c171bfc-8561-bb46-c49c-ee0dc8f35db4"
+          },
+          {
+            "name" : "ctrlSelectMode",
+            "value" : true,
+            "description" : "Ctrl Select Mode",
+            "tooltip" : "When true, indicates that a selection made by the user replaces the current selection, if any.",
+            "type" : "Boolean",
+            "order" : 303,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataCategoriesCount",
+            "value" : "",
+            "description" : "Data Categories Count",
+            "tooltip" : "The number of columns of the \u0022categories\u0022 physical group that the data source contains.",
+            "type" : "Float",
+            "order" : 304,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataIgnoreMetadataLabels",
+            "value" : false,
+            "description" : "Data Ignore Metadata Labels",
+            "tooltip" : "Indicates if the data source translation should ignore the column labels present in the data source\u0027s metadata as defaults for the labels of dimensions that are directly loaded from those columns.",
+            "type" : "Boolean",
+            "order" : 305,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataMeasuresInColumns",
+            "value" : "",
+            "description" : "Data Measures In Columns",
+            "tooltip" : "Indicates if multiple measures \u0022are in\u0022 columns or in rows (applies to crosstab data format).",
+            "type" : "Boolean",
+            "order" : 306,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataPartRole",
+            "value" : "",
+            "description" : "Data Part Role",
+            "tooltip" : "The dataPart visual role is a chart-level visual role that allows partitioning of the data into several datum subsets.",
+            "type" : "String",
+            "order" : 307,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataSeparator",
+            "value" : "~",
+            "description" : "Data Separator",
+            "tooltip" : "The separator character used to join multiple values in the crosstab format, and to build composite keys for multiple level groupings.",
+            "type" : "String",
+            "order" : 308,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "dataWhere",
+            "value" : "",
+            "description" : "Data Where",
+            "tooltip" : "A function that filters datums as they are being loading.",
+            "type" : "JavaScript",
+            "order" : 309,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "doubleClickAction",
+            "value" : "",
+            "description" : "Double Click Action",
+            "tooltip" : "A callback function that is called when the user double-clicks on a visual element.",
+            "type" : "JavaScript",
+            "order" : 312,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "groupedLabelSep",
+            "value" : " ~ ",
+            "description" : "Grouped Label Sep",
+            "tooltip" : "The separator used to join the labels of the values of a multi-dimensional visual role.",
+            "type" : "String",
+            "order" : 317,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "hoverable",
+            "value" : false,
+            "description" : "Hoverable",
+            "tooltip" : "Indicates if the chart\u0027s visual elements are automatically highlighted when the user hovers over them with the mouse.",
+            "type" : "Boolean",
+            "order" : 318,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ignoreNulls",
+            "value" : true,
+            "description" : "Ignore Nulls",
+            "tooltip" : "Indicates if datums whose value in every measure dimension is null are ignored.",
+            "type" : "Boolean",
+            "order" : 319,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "interactive",
+            "value" : "",
+            "description" : "Interactive",
+            "tooltip" : "Indicates if chart interaction is enabled.",
+            "type" : "Boolean",
+            "order" : 320,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "isMultiValued",
+            "value" : false,
+            "description" : "Is Multi Valued",
+            "tooltip" : "Indicates if the data source contains multiple columns of the \u0022measures\u0022 physical group.",
+            "type" : "Boolean",
+            "order" : 321,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "leafContentOverflow",
+            "value" : "auto",
+            "description" : "Leaf Content Overflow",
+            "tooltip" : "Indicates what is to be done with content that overflows in leaf charts.",
+            "type" : "cccLeafContentOverflowCustom",
+            "order" : 323,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legend",
+            "value" : "",
+            "description" : "Legend",
+            "tooltip" : "The legend panel of the root chart.",
+            "type" : "Boolean",
+            "order" : 324,
+            "classType" : "",
+            "id" : "fd108b2b-76e1-f7d5-90cc-787fa5b6fade"
+          },
+          {
+            "name" : "legendAlign",
+            "value" : "",
+            "description" : "Legend Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccLegendAlignCustom",
+            "order" : 325,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendClickMode",
+            "value" : "toggleVisible",
+            "description" : "Legend Click Mode",
+            "tooltip" : "What happens when the user clicks a legend item (applies to color axes of discrete domain).",
+            "type" : "cccLegendClickModeCustom",
+            "order" : 326,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendDrawLine",
+            "value" : "",
+            "description" : "Legend Draw Line",
+            "tooltip" : "Forces a rule to be shown or not in the marker zone (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 327,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendDrawMarker",
+            "value" : "",
+            "description" : "Legend Draw Marker",
+            "tooltip" : "Forces a shape to be shown or not in the marker zone (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 328,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendFont",
+            "value" : "",
+            "description" : "Legend Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 329,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendItemCountMax",
+            "value" : "",
+            "description" : "Legend Item Count Max",
+            "tooltip" : "The maximum positive number of legend items that can fit in the legend panel.",
+            "type" : "Float",
+            "order" : 330,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendItemPadding",
+            "value" : "",
+            "description" : "Legend Item Padding",
+            "tooltip" : "Half the space between legend items, in pixel units.",
+            "type" : "String",
+            "order" : 331,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendItemSize",
+            "value" : "",
+            "description" : "Legend Item Size",
+            "tooltip" : "The fixed size of legend items, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 332,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendMargins",
+            "value" : "",
+            "description" : "Legend Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 333,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendMarkerSize",
+            "value" : "",
+            "description" : "Legend Marker Size",
+            "tooltip" : "The width and height of the marker panel, in pixel units.",
+            "type" : "Float",
+            "order" : 334,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendOverflow",
+            "value" : "",
+            "description" : "Legend Overflow",
+            "tooltip" : "The behavior of the legend panel when an overflow is detected.",
+            "type" : "cccLegendOverflowCustom",
+            "order" : 335,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendPaddings",
+            "value" : "",
+            "description" : "Legend Paddings",
+            "tooltip" : "The paddings of the panel.",
+            "type" : "String",
+            "order" : 336,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendPosition",
+            "value" : "",
+            "description" : "Legend Position",
+            "tooltip" : "The docking position of the panel.",
+            "type" : "cccLegendPositionCustom",
+            "order" : 337,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendShape",
+            "value" : "",
+            "description" : "Legend Shape",
+            "tooltip" : "Forces a given shape to be used in the marker zone (applies to color axes of discrete domain).",
+            "type" : "cccLegendShapeCustom",
+            "order" : 338,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendSize",
+            "value" : "",
+            "description" : "Legend Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 339,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendSizeMax",
+            "value" : "",
+            "description" : "Legend Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 340,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendTextMargin",
+            "value" : "",
+            "description" : "Legend Text Margin",
+            "tooltip" : "The space between the marker and the associated label, in pixel units.",
+            "type" : "Float",
+            "order" : 341,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "legendVisible",
+            "value" : true,
+            "description" : "Legend Visible",
+            "tooltip" : "Indicates if the legend items of the color axis should be visible (applies to color axes of discrete domain).",
+            "type" : "Boolean",
+            "order" : 342,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "margins",
+            "value" : "",
+            "description" : "Margins",
+            "tooltip" : "The margins of the root chart.",
+            "type" : "String",
+            "order" : 351,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "measuresIndexes",
+            "value" : "[]",
+            "description" : "Measures Indexes",
+            "tooltip" : "The indexes of columns of the \u0022measures\u0022 physical group (applies to relational data format).",
+            "type" : "Array",
+            "order" : 354,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartColumnsMax",
+            "value" : 3,
+            "description" : "Multi Chart Columns Max",
+            "tooltip" : "The maximum number of small charts that should be displayed in a row.",
+            "type" : "Float",
+            "order" : 357,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartIndexes",
+            "value" : "[]",
+            "description" : "Multi Chart Indexes",
+            "tooltip" : "The indexes of columns of the logical table that are to feed the default multiChart, multiChart2, .",
+            "type" : "Array",
+            "order" : 358,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartMax",
+            "value" : "",
+            "description" : "Multi Chart Max",
+            "tooltip" : "The maximum number of small charts that should be displayed.",
+            "type" : "Float",
+            "order" : 359,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartOverflow",
+            "value" : "grow",
+            "description" : "Multi Chart Overflow",
+            "tooltip" : "The strategy to follow when the resulting multi-chart layout does not fit entirely in the initial chart size.",
+            "type" : "cccMultiChartOverflowCustom",
+            "order" : 360,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartRole",
+            "value" : "",
+            "description" : "Multi Chart Role",
+            "tooltip" : "The multiChart visual role is a chart-level visual role that allows turning a chart into a small multiples chart, .",
+            "type" : "String",
+            "order" : 361,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartSingleColFillsHeight",
+            "value" : true,
+            "description" : "Multi Chart Single Column Fills Height",
+            "tooltip" : "Indicates that, when the layout results in a single column and the value of is still to be determined, it should be set to all the initially available content height, instead of determining the height from the and the .",
+            "type" : "Boolean",
+            "order" : 362,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "multiChartSingleRowFillsHeight",
+            "value" : true,
+            "description" : "Multi Chart Single Row Fills Height",
+            "tooltip" : "Indicates that, when the layout results in a single row and the value of is still to be determined, it should be set to all the initially available content height, instead of determining the height from the and the .",
+            "type" : "Boolean",
+            "order" : 363,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "nullInterpolationMode",
+            "value" : "none",
+            "description" : "Null Interpolation Mode",
+            "tooltip" : "The interpolation mode used to fill-in null or missing values.",
+            "type" : "cccNullInterpolationModeCustom",
+            "order" : 364,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orientation",
+            "value" : "vertical",
+            "description" : "Orientation",
+            "tooltip" : "The chart orientation indicates if its main direction is vertical or horizontal.",
+            "type" : "cccOrientationCustom",
+            "order" : 366,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisDesiredTickCount",
+            "value" : "",
+            "description" : "Ortho 2 Axis Desired Tick Count",
+            "tooltip" : "The desired number of major ticks.",
+            "type" : "Float",
+            "order" : 367,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisDomainAlign",
+            "value" : "center",
+            "description" : "Ortho 2 Axis Domain Align",
+            "tooltip" : "The domain alignment to use when the domain has a fixed or implied length (applies to continuous axes).",
+            "type" : "cccOrtho2AxisDomainAlignCustom",
+            "order" : 368,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisDomainRoundMode",
+            "value" : "tick",
+            "description" : "Ortho 2 Axis Domain Round Mode",
+            "tooltip" : "The axis\u0027 domain rounding mode (applies to continuous axes).",
+            "type" : "cccOrtho2AxisDomainRoundModeCustom",
+            "order" : 369,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisDomainScope",
+            "value" : "global",
+            "description" : "Ortho 2 Axis Domain Scope",
+            "tooltip" : "Controls the type of scale domain coordination that should be performed amongst the axes of the same id of each small chart (applies to continuous axes).",
+            "type" : "cccOrtho2AxisDomainScopeCustom",
+            "order" : 370,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisFixedLength",
+            "value" : "",
+            "description" : "Ortho 2 Axis Fixed Length",
+            "tooltip" : "The fixed length of the axis domain (applies to continuous axes).",
+            "type" : "Float",
+            "order" : 371,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisFixedMax",
+            "value" : "",
+            "description" : "Ortho 2 Axis Fixed Max",
+            "tooltip" : "The fixed maximum value of the axis domain (applies to continuous axes).",
+            "type" : "String",
+            "order" : 372,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisFixedMin",
+            "value" : "",
+            "description" : "Ortho 2 Axis Fixed Min",
+            "tooltip" : "The fixed minimum value of the axis domain (applies to continuous axes).",
+            "type" : "String",
+            "order" : 373,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisFont",
+            "value" : "",
+            "description" : "Ortho 2 Axis Font",
+            "tooltip" : "The font used by the panel.",
+            "type" : "String",
+            "order" : 374,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisGrid",
+            "value" : "",
+            "description" : "Ortho 2 Axis Grid",
+            "tooltip" : "Indicates if grid rules are drawn separating discrete values or at each major continuous tick.",
+            "type" : "Boolean",
+            "order" : 375,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisLabelSpacingMin",
+            "value" : "",
+            "description" : "Ortho 2 Axis Label Spacing Min",
+            "tooltip" : "The minimum spacing between tick labels, in em units (does not apply to discrete-hierarchical axes).",
+            "type" : "Float",
+            "order" : 376,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisMinorTicks",
+            "value" : true,
+            "description" : "Ortho 2 Axis Minor Ticks",
+            "tooltip" : "Indicates if minor ticks are shown between major ticks (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 377,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisOffset",
+            "value" : 0,
+            "description" : "Ortho 2 Axis Offset",
+            "tooltip" : "The percentage padding, on each of the sides of the plot panel that are orthogonal to the axis orientation.",
+            "type" : "Float",
+            "order" : 378,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisOriginIsZero",
+            "value" : "",
+            "description" : "Ortho 2 Axis Origin Is Zero",
+            "tooltip" : "Indicates if it should be ensured that the 0 domain value is shown (applies to numeric axes).",
+            "type" : "Boolean",
+            "order" : 379,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisPosition",
+            "value" : "",
+            "description" : "Ortho 2 Axis Position",
+            "tooltip" : "The position of the axis panel.",
+            "type" : "cccOrtho2AxisPositionCustom",
+            "order" : 380,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisPreserveRatio",
+            "value" : "",
+            "description" : "Ortho 2 Axis Preserve Ratio",
+            "tooltip" : "Indicates if the initial proportion between the axis\u0027 domain and range lengths should be preserved between renders (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 381,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisPreserveTickAlignment",
+            "value" : "",
+            "description" : "Ortho 2 Axis Preserve Tick Alignment",
+            "tooltip" : "When using a sliding window for real time applications, the ticks alignment is used to guarantee that the ticks keep the same regularity from one rendering to the next (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 382,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisRatio",
+            "value" : "",
+            "description" : "Ortho 2 Axis Ratio",
+            "tooltip" : "The fixed ratio value which is the proportion between the axis\u0027 range and domain lengths (applies to continuous axes).",
+            "type" : "Float",
+            "order" : 383,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisSize",
+            "value" : "",
+            "description" : "Ortho 2 Axis Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 384,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisSizeMax",
+            "value" : "",
+            "description" : "Ortho 2 Axis Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 385,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickExponentMax",
+            "value" : "",
+            "description" : "Ortho 2 Axis Tick Exponent Max",
+            "tooltip" : "The maximum exponent of 10 that is used to generate ticks (applies to continuous-numeric axes).",
+            "type" : "Float",
+            "order" : 386,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickExponentMin",
+            "value" : "",
+            "description" : "Ortho 2 Axis Tick Exponent Min",
+            "tooltip" : "The minimum exponent of 10 that is used to generate ticks (applies to continuous-numeric axes).",
+            "type" : "Float",
+            "order" : 387,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickFormatter",
+            "value" : "",
+            "description" : "Ortho 2 Axis Tick Formatter",
+            "tooltip" : "A tick formatter function.",
+            "type" : "JavaScript",
+            "order" : 388,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTicks",
+            "value" : true,
+            "description" : "Ortho 2 Axis Ticks",
+            "tooltip" : "Indicates if ticks are shown for each tick value (does not apply to discrete-hierarchical axes).",
+            "type" : "Boolean",
+            "order" : 389,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickUnit",
+            "value" : "",
+            "description" : "Ortho 2 Axis Tick Unit",
+            "tooltip" : "The ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 390,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickUnitMax",
+            "value" : "Infinity",
+            "description" : "Ortho 2 Axis Tick Unit Max",
+            "tooltip" : "The maximum ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 391,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTickUnitMin",
+            "value" : "0",
+            "description" : "Ortho 2 Axis Tick Unit Min",
+            "tooltip" : "The minimum ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 392,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitle",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title",
+            "tooltip" : "The axis title and title options.",
+            "type" : "String",
+            "order" : 393,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleAlign",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccOrtho2AxisTitleAlignCustom",
+            "order" : 394,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleFont",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 395,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleMargins",
+            "value" : "0",
+            "description" : "Ortho 2 Axis Title Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 396,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleSize",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 397,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleSizeMax",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 398,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisTitleVisible",
+            "value" : "",
+            "description" : "Ortho 2 Axis Title Visible",
+            "tooltip" : "Indicates if the title panel is visible.",
+            "type" : "Boolean",
+            "order" : 399,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisVisible",
+            "value" : true,
+            "description" : "Ortho 2 Axis Visible",
+            "tooltip" : "Indicates if the axis panel is shown.",
+            "type" : "Boolean",
+            "order" : 400,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "ortho2AxisZeroLine",
+            "value" : true,
+            "description" : "Ortho 2 Axis Zero Line",
+            "tooltip" : "Indicates if the zero line rule is drawn, on the position of the 0-valued tick, when there is one (applies to continuous-numeric axes).",
+            "type" : "Boolean",
+            "order" : 401,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisDesiredTickCount",
+            "value" : "",
+            "description" : "Ortho Axis Desired Tick Count",
+            "tooltip" : "The desired number of major ticks.",
+            "type" : "Float",
+            "order" : 410,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisDomainAlign",
+            "value" : "center",
+            "description" : "Ortho Axis Domain Align",
+            "tooltip" : "The domain alignment to use when the domain has a fixed or implied length (applies to continuous axes).",
+            "type" : "cccOrthoAxisDomainAlignCustom",
+            "order" : 411,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisDomainRoundMode",
+            "value" : "tick",
+            "description" : "Ortho Axis Domain Round Mode",
+            "tooltip" : "The axis\u0027 domain rounding mode (applies to continuous axes).",
+            "type" : "cccOrthoAxisDomainRoundModeCustom",
+            "order" : 412,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisDomainScope",
+            "value" : "global",
+            "description" : "Ortho Axis Domain Scope",
+            "tooltip" : "Controls the type of scale domain coordination that should be performed amongst the axes of the same id of each small chart (applies to continuous axes).",
+            "type" : "cccOrthoAxisDomainScopeCustom",
+            "order" : 413,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisFixedLength",
+            "value" : "",
+            "description" : "Ortho Axis Fixed Length",
+            "tooltip" : "The fixed length of the axis domain (applies to continuous axes).",
+            "type" : "Float",
+            "order" : 415,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisFixedMax",
+            "value" : "",
+            "description" : "Ortho Axis Fixed Max",
+            "tooltip" : "The fixed maximum value of the axis domain (applies to continuous axes).",
+            "type" : "String",
+            "order" : 416,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisFixedMin",
+            "value" : "",
+            "description" : "Ortho Axis Fixed Min",
+            "tooltip" : "The fixed minimum value of the axis domain (applies to continuous axes).",
+            "type" : "String",
+            "order" : 417,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisFont",
+            "value" : "",
+            "description" : "Ortho Axis Font",
+            "tooltip" : "The font used by the panel.",
+            "type" : "String",
+            "order" : 418,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisGrid",
+            "value" : "",
+            "description" : "Ortho Axis Grid",
+            "tooltip" : "Indicates if grid rules are drawn separating discrete values or at each major continuous tick.",
+            "type" : "Boolean",
+            "order" : 419,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisLabelSpacingMin",
+            "value" : "",
+            "description" : "Ortho Axis Label Spacing Min",
+            "tooltip" : "The minimum spacing between tick labels, in em units (does not apply to discrete-hierarchical axes).",
+            "type" : "Float",
+            "order" : 422,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisMinorTicks",
+            "value" : "",
+            "description" : "Ortho Axis Minor Ticks",
+            "tooltip" : "Indicates if minor ticks are shown between major ticks (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 423,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisOffset",
+            "value" : 0,
+            "description" : "Ortho Axis Offset",
+            "tooltip" : "The percentage padding, on each of the sides of the plot panel that are orthogonal to the axis orientation.",
+            "type" : "Float",
+            "order" : 424,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisOriginIsZero",
+            "value" : "",
+            "description" : "Ortho Axis Origin Is Zero",
+            "tooltip" : "Indicates if it should be ensured that the 0 domain value is shown (applies to numeric axes).",
+            "type" : "Boolean",
+            "order" : 425,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisPosition",
+            "value" : "",
+            "description" : "Ortho Axis Position",
+            "tooltip" : "The position of the axis panel.",
+            "type" : "cccOrthoAxisPositionCustom",
+            "order" : 427,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisPreserveRatio",
+            "value" : "",
+            "description" : "Ortho Axis Preserve Ratio",
+            "tooltip" : "Indicates if the initial proportion between the axis\u0027 domain and range lengths should be preserved between renders (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 428,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisPreserveTickAlignment",
+            "value" : "",
+            "description" : "Ortho Axis Preserve Tick Alignment",
+            "tooltip" : "When using a sliding window for real time applications, the ticks alignment is used to guarantee that the ticks keep the same regularity from one rendering to the next (applies to continuous axes).",
+            "type" : "Boolean",
+            "order" : 429,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisRatio",
+            "value" : "",
+            "description" : "Ortho Axis Ratio",
+            "tooltip" : "The fixed ratio value which is the proportion between the axis\u0027 range and domain lengths (applies to continuous axes).",
+            "type" : "Float",
+            "order" : 430,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisSize",
+            "value" : "",
+            "description" : "Ortho Axis Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 431,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisSizeMax",
+            "value" : "",
+            "description" : "Ortho Axis Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 432,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickExponentMax",
+            "value" : "",
+            "description" : "Ortho Axis Tick Exponent Max",
+            "tooltip" : "The maximum exponent of 10 that is used to generate ticks (applies to continuous-numeric axes).",
+            "type" : "Float",
+            "order" : 433,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickExponentMin",
+            "value" : "",
+            "description" : "Ortho Axis Tick Exponent Min",
+            "tooltip" : "The minimum exponent of 10 that is used to generate ticks (applies to continuous-numeric axes).",
+            "type" : "Float",
+            "order" : 434,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickFormatter",
+            "value" : "",
+            "description" : "Ortho Axis Tick Formatter",
+            "tooltip" : "A tick formatter function.",
+            "type" : "JavaScript",
+            "order" : 435,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTicks",
+            "value" : true,
+            "description" : "Ortho Axis Ticks",
+            "tooltip" : "Indicates if ticks are shown for each tick value (does not apply to discrete-hierarchical axes).",
+            "type" : "Boolean",
+            "order" : 436,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickUnit",
+            "value" : "",
+            "description" : "Ortho Axis Tick Unit",
+            "tooltip" : "The ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 437,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickUnitMax",
+            "value" : "Infinity",
+            "description" : "Ortho Axis Tick Unit Max",
+            "tooltip" : "The maximum ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 438,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTickUnitMin",
+            "value" : "0",
+            "description" : "Ortho Axis Tick Unit Min",
+            "tooltip" : "The minimum ticks\u0027 major unit (difference in domain value between consecutive ticks).",
+            "type" : "String",
+            "order" : 439,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitle",
+            "value" : "",
+            "description" : "Ortho Axis Title",
+            "tooltip" : "The axis title and title options.",
+            "type" : "String",
+            "order" : 440,
+            "classType" : "",
+            "id" : "9ddd8873-1009-db18-c72b-5475588c574e"
+          },
+          {
+            "name" : "orthoAxisTitleAlign",
+            "value" : "",
+            "description" : "Ortho Axis Title Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccOrthoAxisTitleAlignCustom",
+            "order" : 441,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitleFont",
+            "value" : "",
+            "description" : "Ortho Axis Title Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 442,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitleMargins",
+            "value" : "0",
+            "description" : "Ortho Axis Title Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 443,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitleSize",
+            "value" : "",
+            "description" : "Ortho Axis Title Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 444,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitleSizeMax",
+            "value" : "",
+            "description" : "Ortho Axis Title Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 445,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisTitleVisible",
+            "value" : "",
+            "description" : "Ortho Axis Title Visible",
+            "tooltip" : "Indicates if the title panel is visible.",
+            "type" : "Boolean",
+            "order" : 446,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisVisible",
+            "value" : true,
+            "description" : "Ortho Axis Visible",
+            "tooltip" : "Indicates if the axis panel is shown.",
+            "type" : "Boolean",
+            "order" : 450,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "orthoAxisZeroLine",
+            "value" : true,
+            "description" : "Ortho Axis Zero Line",
+            "tooltip" : "Indicates if the zero line rule is drawn, on the position of the 0-valued tick, when there is one (applies to continuous-numeric axes).",
+            "type" : "Boolean",
+            "order" : 451,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "overflowMarkersVisible",
+            "value" : true,
+            "description" : "Overflow Markers Visible",
+            "tooltip" : "Indicates if overflow and underflow markers are shown when the bars are drawn off the plot area.",
+            "type" : "Boolean",
+            "order" : 452,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "paddings",
+            "value" : "",
+            "description" : "Paddings",
+            "tooltip" : "The paddings of the root chart.",
+            "type" : "String",
+            "order" : 453,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "panelSizeRatio",
+            "value" : "",
+            "description" : "Panel Size Ratio",
+            "tooltip" : "Percentage of occupied space over total space in a discrete axis band.",
+            "type" : "Float",
+            "order" : 454,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "percentValueFormat",
+            "value" : "",
+            "description" : "Percent Value Format",
+            "tooltip" : "A function used to format non-null numeric values as percentages.",
+            "type" : "JavaScript",
+            "order" : 455,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2",
+            "value" : false,
+            "description" : "Plot 2",
+            "tooltip" : "Activates the second plot.",
+            "type" : "Boolean",
+            "order" : 456,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2AreasFillOpacity",
+            "value" : 0.5,
+            "description" : "Plot 2 Areas Fill Opacity",
+            "tooltip" : "A value that is multiplied by the opacity value of the area\u0027s base color.",
+            "type" : "Float",
+            "order" : 457,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2AreasVisible",
+            "value" : false,
+            "description" : "Plot 2 Areas Visible",
+            "tooltip" : "Indicates if shaded areas are shown in the plot.",
+            "type" : "Boolean",
+            "order" : 458,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2ColorAxis",
+            "value" : 2,
+            "description" : "Plot 2 Color Axis",
+            "tooltip" : "The index of the color axis to use for the plot.",
+            "type" : "Float",
+            "order" : 459,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2DotsVisible",
+            "value" : true,
+            "description" : "Plot 2 Dots Visible",
+            "tooltip" : "Indicates if the visual elements show dots/markers in each point\u0027s position.",
+            "type" : "Boolean",
+            "order" : 460,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2LinesVisible",
+            "value" : true,
+            "description" : "Plot 2 Lines Visible",
+            "tooltip" : "Indicates if the visual elements are connected with lines.",
+            "type" : "Boolean",
+            "order" : 461,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2NullInterpolationMode",
+            "value" : "none",
+            "description" : "Plot 2 Null Interpolation Mode",
+            "tooltip" : "The interpolation mode used to fill-in null or missing values.",
+            "type" : "cccPlot2NullInterpolationModeCustom",
+            "order" : 462,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2OrthoAxis",
+            "value" : 1,
+            "description" : "Plot 2 Ortho Axis",
+            "tooltip" : "The index of the orthogonal cartesian axis to use for the plot.",
+            "type" : "Float",
+            "order" : 463,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2Series",
+            "value" : "[]",
+            "description" : "Plot 2 Series",
+            "tooltip" : "The key values of the series visual role, that are to be shown in the second plot.",
+            "type" : "Array",
+            "order" : 464,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2SeriesIndexes",
+            "value" : -1,
+            "description" : "Plot 2 Series Indexes",
+            "tooltip" : "The 0-based indexes of the series visual role values that are to be shown in the second plot.",
+            "type" : "Array",
+            "order" : 465,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2Stacked",
+            "value" : false,
+            "description" : "Plot 2 Stacked",
+            "tooltip" : "Indicates that visual elements having identical category, but different series, are displayed on top of each other, along the plot\u0027s orthogonal direction, instead of side-by-side, along the base direction.",
+            "type" : "Boolean",
+            "order" : 466,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2TrendLabel",
+            "value" : "",
+            "description" : "Plot 2 Trend Label",
+            "tooltip" : "A description to show next to the trended data.",
+            "type" : "String",
+            "order" : 467,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2TrendType",
+            "value" : "",
+            "description" : "Plot 2 Trend Type",
+            "tooltip" : "The type of trend to perform on the data of the associated plot.",
+            "type" : "String",
+            "order" : 468,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2ValuesAnchor",
+            "value" : "",
+            "description" : "Plot 2 Values Anchor",
+            "tooltip" : "The alignment of a value label relative to its corresponding visual element position.",
+            "type" : "cccPlot2ValuesAnchorCustom",
+            "order" : 469,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2ValuesFont",
+            "value" : "",
+            "description" : "Plot 2 Values Font",
+            "tooltip" : "The font of a value label.",
+            "type" : "String",
+            "order" : 470,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2ValuesMask",
+            "value" : "{value}",
+            "description" : "Plot 2 Values Mask",
+            "tooltip" : "The values mask used to build the text of value labels.",
+            "type" : "String",
+            "order" : 471,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plot2ValuesVisible",
+            "value" : false,
+            "description" : "Plot 2 Values Visible",
+            "tooltip" : "Indicates if value labels are shown next to the visual elements.",
+            "type" : "Boolean",
+            "order" : 472,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plotFrameVisible",
+            "value" : "",
+            "description" : "Plot Frame Visible",
+            "tooltip" : "Indicates whether the plot frame is drawn in leaf charts.",
+            "type" : "Boolean",
+            "order" : 473,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "plotSizeMin",
+            "value" : "",
+            "description" : "Plot Size Min",
+            "tooltip" : "The minimum size of the plot panel, in pixel units.",
+            "type" : "String",
+            "order" : 474,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "pointingMode",
+            "value" : "near",
+            "description" : "Pointing Mode",
+            "tooltip" : "The pointing mode used by the chart.",
+            "type" : "cccPointingModeCustom",
+            "order" : 475,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "preserveLayout",
+            "value" : false,
+            "description" : "Preserve Layout",
+            "tooltip" : "Indicates if the layout should be preserved between renders.",
+            "type" : "Boolean",
+            "order" : 476,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "readers",
+            "value" : "[]",
+            "description" : "Readers",
+            "tooltip" : "A list of dimension names to load from corresponding logical table columns.",
+            "type" : "Array",
+            "order" : 478,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "renderCallback",
+            "value" : "",
+            "description" : "Render Callback",
+            "tooltip" : "A callback function that is called before the chart is rendered, but after if has been pre-rendered.",
+            "type" : "JavaScript",
+            "order" : 479,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "renderedCallback",
+            "value" : "",
+            "description" : "Rendered Callback",
+            "tooltip" : "A callback function that is called after the chart has finished rendering, including any animations.",
+            "type" : "JavaScript",
+            "order" : 480,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "selectable",
+            "value" : false,
+            "description" : "Selectable",
+            "tooltip" : "Indicates if the chart\u0027s visual elements can be selected by the user, by clicking on them or using the rubber-band.",
+            "type" : "Boolean",
+            "order" : 482,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "selectionChangedAction",
+            "value" : "",
+            "description" : "Selection Changed Action",
+            "tooltip" : "A callback function that is called when, after selection has changed, the chart is updated to reflect the change.",
+            "type" : "JavaScript",
+            "order" : 483,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "seriesInRows",
+            "value" : false,
+            "description" : "Series In Rows",
+            "tooltip" : "Swaps the columns of the \u0022series\u0022 and \u0022categories\u0022 physical groups.",
+            "type" : "Boolean",
+            "order" : 484,
+            "classType" : "",
+            "id" : "5f34e0ca-2832-3858-351b-e619718f67b3"
+          },
+          {
+            "name" : "seriesRole",
+            "value" : "",
+            "description" : "Series Role",
+            "tooltip" : "The series visual role is a plot-level visual role that represents a series of connected data points.",
+            "type" : "String",
+            "order" : 485,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "slidingWindow",
+            "value" : false,
+            "description" : "Sliding Window",
+            "tooltip" : "Indicates the existence of the sliding window.",
+            "type" : "Boolean",
+            "order" : 495,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "slidingWindowDimension",
+            "value" : "",
+            "description" : "Sliding Window Dimension",
+            "tooltip" : "The name of the dimension associated with the sliding window.",
+            "type" : "String",
+            "order" : 496,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "slidingWindowLength",
+            "value" : "",
+            "description" : "Sliding Window Length",
+            "tooltip" : "The domain length to show on the sliding window axis.",
+            "type" : "String",
+            "order" : 497,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "slidingWindowSelect",
+            "value" : "",
+            "description" : "Sliding Window Select",
+            "tooltip" : "A function that, given a dataset, selects the data to be removed.",
+            "type" : "JavaScript",
+            "order" : 498,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallAspectRatio",
+            "value" : "",
+            "description" : "Small Aspect Ratio",
+            "tooltip" : "The ratio of the width over the height of a small chart.",
+            "type" : "Float",
+            "order" : 499,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallContentMargins",
+            "value" : "0",
+            "description" : "Small Content Margins",
+            "tooltip" : "The margins of the content panel of a small chart.",
+            "type" : "String",
+            "order" : 500,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallContentPaddings",
+            "value" : "0",
+            "description" : "Small Content Paddings",
+            "tooltip" : "The paddings of the content panel of a small chart.",
+            "type" : "String",
+            "order" : 501,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallHeight",
+            "value" : "",
+            "description" : "Small Height",
+            "tooltip" : "Fixates the height of each small chart, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 502,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallMargins",
+            "value" : "2%",
+            "description" : "Small Margins",
+            "tooltip" : "The margins of a small chart.",
+            "type" : "String",
+            "order" : 503,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallPaddings",
+            "value" : "0",
+            "description" : "Small Paddings",
+            "tooltip" : "The paddings of a small chart.",
+            "type" : "String",
+            "order" : 504,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleAlign",
+            "value" : "",
+            "description" : "Small Title Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccSmallTitleAlignCustom",
+            "order" : 505,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleFont",
+            "value" : "",
+            "description" : "Small Title Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 506,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleMargins",
+            "value" : "0",
+            "description" : "Small Title Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 507,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitlePaddings",
+            "value" : "0",
+            "description" : "Small Title Paddings",
+            "tooltip" : "The paddings of the panel.",
+            "type" : "String",
+            "order" : 508,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitlePosition",
+            "value" : "top",
+            "description" : "Small Title Position",
+            "tooltip" : "The docking position of the panel.",
+            "type" : "cccSmallTitlePositionCustom",
+            "order" : 509,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleSize",
+            "value" : "",
+            "description" : "Small Title Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 510,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleSizeMax",
+            "value" : "",
+            "description" : "Small Title Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 511,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallTitleVisible",
+            "value" : "",
+            "description" : "Small Title Visible",
+            "tooltip" : "Indicates if the title panel is visible.",
+            "type" : "Boolean",
+            "order" : 512,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "smallWidth",
+            "value" : "",
+            "description" : "Small Width",
+            "tooltip" : "Fixates the width of each small chart, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 513,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "stacked",
+            "value" : false,
+            "description" : "Stacked",
+            "tooltip" : "Indicates that visual elements having identical category, but different series, are displayed on top of each other, along the plot\u0027s orthogonal direction, instead of side-by-side, along the base direction.",
+            "type" : "Boolean",
+            "order" : 514,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "timeSeries",
+            "value" : "false",
+            "description" : "Time Series",
+            "tooltip" : "Indicates that dimensions whose name is \u0022category1\u0022, \u0022category2\u0022, etc, have a Date value type, by default.",
+            "type" : "Boolean",
+            "order" : 516,
+            "classType" : "",
+            "id" : "cf40931f-26a3-487f-8ece-07615af15989"
+          },
+          {
+            "name" : "timeSeriesFormat",
+            "value" : "%m-%Y",
+            "description" : "Time Series Format",
+            "tooltip" : "The format string used to parse dimensions of the Date value type, by default.",
+            "type" : "String",
+            "order" : 517,
+            "classType" : "",
+            "id" : "f01cb37d-421e-2db6-15e8-3611d47eaf76"
+          },
+          {
+            "name" : "titleAlign",
+            "value" : "",
+            "description" : "Title Align",
+            "tooltip" : "The alignment side of the panel (the source) that will align to a side of the parent panel (the target).",
+            "type" : "cccTitleAlignCustom",
+            "order" : 518,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titleFont",
+            "value" : "",
+            "description" : "Title Font",
+            "tooltip" : "The font of the panel.",
+            "type" : "String",
+            "order" : 519,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titleMargins",
+            "value" : "0",
+            "description" : "Title Margins",
+            "tooltip" : "The margins of the panel.",
+            "type" : "String",
+            "order" : 520,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titlePaddings",
+            "value" : "0",
+            "description" : "Title Paddings",
+            "tooltip" : "The paddings of the panel.",
+            "type" : "String",
+            "order" : 521,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titlePosition",
+            "value" : "",
+            "description" : "Title Position",
+            "tooltip" : "The docking position of the panel.",
+            "type" : "cccTitlePositionCustom",
+            "order" : 522,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titleSize",
+            "value" : "",
+            "description" : "Title Size",
+            "tooltip" : "The fixed size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 524,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titleSizeMax",
+            "value" : "",
+            "description" : "Title Size Max",
+            "tooltip" : "The maximum size of the panel, in pixel units or as a percentage.",
+            "type" : "String",
+            "order" : 525,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "titleVisible",
+            "value" : "",
+            "description" : "Title Visible",
+            "tooltip" : "Indicates if the title panel is visible.",
+            "type" : "Boolean",
+            "order" : 526,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipArrowVisible",
+            "value" : "",
+            "description" : "Tooltip Arrow Visible",
+            "tooltip" : "Indicates if the tooltip shows an arrow pointing to the visual element\u0027s anchor point.",
+            "type" : "Boolean",
+            "order" : 527,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipClassName",
+            "value" : "",
+            "description" : "Tooltip Class Name",
+            "tooltip" : "A custom class to mark the root tooltip element.",
+            "type" : "String",
+            "order" : 528,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipEnabled",
+            "value" : true,
+            "description" : "Tooltip Enabled",
+            "tooltip" : "Indicates if the tooltip is enabled.",
+            "type" : "Boolean",
+            "order" : 529,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipFade",
+            "value" : true,
+            "description" : "Tooltip Fade",
+            "tooltip" : "Indicates if the tooltip fades in and out, after the corresponding delay has expired.",
+            "type" : "Boolean",
+            "order" : 530,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipFollowMouse",
+            "value" : false,
+            "description" : "Tooltip Follow Mouse",
+            "tooltip" : "Indicates if the visual element\u0027s anchor point should be the current mouse position.",
+            "type" : "Boolean",
+            "order" : 531,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipFormat",
+            "value" : "",
+            "description" : "Tooltip Format",
+            "tooltip" : "A callback function that is called to build the tooltip of a visual element.",
+            "type" : "JavaScript",
+            "order" : 532,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipGravity",
+            "value" : "",
+            "description" : "Tooltip Gravity",
+            "tooltip" : "The preferred tooltip gravity.",
+            "type" : "cccTooltipGravityCustom",
+            "order" : 533,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipHtml",
+            "value" : true,
+            "description" : "Tooltip Html",
+            "tooltip" : "Indicates if the tooltip text that the format function builds is in HTML format.",
+            "type" : "Boolean",
+            "order" : 534,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipOffset",
+            "value" : "",
+            "description" : "Tooltip Offset",
+            "tooltip" : "The distance of the closest tooltip edge or corner to the visual element\u0027s tooltip anchor point, in pixel units.",
+            "type" : "Float",
+            "order" : 535,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipOpacity",
+            "value" : 0.9,
+            "description" : "Tooltip Opacity",
+            "tooltip" : "The opacity level of the tooltip box (range from 0, completely transparent, to 1).",
+            "type" : "Float",
+            "order" : 536,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "tooltipUseCorners",
+            "value" : "",
+            "description" : "Tooltip Use Corners",
+            "tooltip" : "Indicates if the collateral tooltip gravities should be aligned with corners.",
+            "type" : "Boolean",
+            "order" : 537,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendAreasFillOpacity",
+            "value" : 0.5,
+            "description" : "Trend Areas Fill Opacity",
+            "tooltip" : "A value that is multiplied by the opacity value of the area\u0027s base color.",
+            "type" : "Float",
+            "order" : 540,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendAreasVisible",
+            "value" : false,
+            "description" : "Trend Areas Visible",
+            "tooltip" : "Indicates if shaded areas are shown in the plot.",
+            "type" : "Boolean",
+            "order" : 541,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendColorAxis",
+            "value" : 2,
+            "description" : "Trend Color Axis",
+            "tooltip" : "The index of the color axis to use for the plot.",
+            "type" : "Float",
+            "order" : 542,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendDotsVisible",
+            "value" : false,
+            "description" : "Trend Dots Visible",
+            "tooltip" : "Indicates if the visual elements show dots/markers in each point\u0027s position.",
+            "type" : "Boolean",
+            "order" : 543,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendLabel",
+            "value" : "",
+            "description" : "Trend Label",
+            "tooltip" : "A description to show next to the trended data.",
+            "type" : "String",
+            "order" : 544,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendLinesVisible",
+            "value" : true,
+            "description" : "Trend Lines Visible",
+            "tooltip" : "Indicates if the visual elements are connected with lines.",
+            "type" : "Boolean",
+            "order" : 545,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendOrthoAxis",
+            "value" : 1,
+            "description" : "Trend Ortho Axis",
+            "tooltip" : "The index of the orthogonal cartesian axis to use for the plot.",
+            "type" : "Float",
+            "order" : 546,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendStacked",
+            "value" : false,
+            "description" : "Trend Stacked",
+            "tooltip" : "Indicates that visual elements having identical category, but different series, are displayed on top of each other, along the plot\u0027s orthogonal direction, instead of side-by-side, along the base direction.",
+            "type" : "Boolean",
+            "order" : 548,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendType",
+            "value" : "",
+            "description" : "Trend Type",
+            "tooltip" : "The type of trend to perform on the data of the associated plot.",
+            "type" : "String",
+            "order" : 549,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendValuesAnchor",
+            "value" : "right",
+            "description" : "Trend Values Anchor",
+            "tooltip" : "The alignment of a value label relative to its corresponding visual element position.",
+            "type" : "cccTrendValuesAnchorCustom",
+            "order" : 550,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendValuesFont",
+            "value" : "",
+            "description" : "Trend Values Font",
+            "tooltip" : "The font of a value label.",
+            "type" : "String",
+            "order" : 551,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendValuesMask",
+            "value" : "",
+            "description" : "Trend Values Mask",
+            "tooltip" : "The values mask used to build the text of value labels.",
+            "type" : "String",
+            "order" : 552,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "trendValuesVisible",
+            "value" : false,
+            "description" : "Trend Values Visible",
+            "tooltip" : "Indicates if value labels are shown next to the visual elements.",
+            "type" : "Boolean",
+            "order" : 553,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "userSelectionAction",
+            "value" : "",
+            "description" : "User Selection Action",
+            "tooltip" : "A callback function that is called when the user performs a selection, but before the corresponding datums\u0027 selected state is actually changed.",
+            "type" : "JavaScript",
+            "order" : 555,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valueFormat",
+            "value" : "",
+            "description" : "Value Format",
+            "tooltip" : "A function that formats the non-null values of numeric dimensions.",
+            "type" : "JavaScript",
+            "order" : 557,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valueRole",
+            "value" : "",
+            "description" : "Value Role",
+            "tooltip" : "The value visual role is a plot-level visual role that represents its main measure under analysis, specifically, it is visually encoded by the orthogonal position of points.",
+            "type" : "String",
+            "order" : 558,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesAnchor",
+            "value" : "",
+            "description" : "Values Anchor",
+            "tooltip" : "The alignment of a value label relative to its corresponding visual element position.",
+            "type" : "cccValuesAnchorCustom",
+            "order" : 559,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesFont",
+            "value" : "",
+            "description" : "Values Font",
+            "tooltip" : "The font of a value label.",
+            "type" : "String",
+            "order" : 560,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesMask",
+            "value" : "",
+            "description" : "Values Mask",
+            "tooltip" : "The values mask used to build the text of value labels.",
+            "type" : "String",
+            "order" : 562,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesNormalized",
+            "value" : false,
+            "description" : "Values Normalized",
+            "tooltip" : "Normalize the domain of bars\u0027 values by category.",
+            "type" : "Boolean",
+            "order" : 563,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesOptimizeLegibility",
+            "value" : "",
+            "description" : "Values Optimize Legibility",
+            "tooltip" : "Indicates if legibility of value labels should be optimized.",
+            "type" : "Boolean",
+            "order" : 564,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesOverflow",
+            "value" : "hide",
+            "description" : "Values Overflow",
+            "tooltip" : "The behavior to apply when the text of value labels does not fit within the bounds of its corresponding visual element.",
+            "type" : "cccValuesOverflowCustom",
+            "order" : 565,
+            "classType" : "advanced"
+          },
+          {
+            "name" : "valuesVisible",
+            "value" : "",
+            "description" : "Values Visible",
+            "tooltip" : "Indicates if value labels are shown next to the visual elements.",
+            "type" : "Boolean",
+            "order" : 566,
+            "classType" : "advanced"
+          }
+        ],
+        "meta_cdwSupport" : "true",
+        "rowName" : "CCC Bar Chart"
+      }
+    ]
+  },
+  "datasources" : {
+    "rows" : [
+      {
+        "id" : "SQL",
+        "name" : "SQL Queries",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "type" : "Label",
+            "value" : "SQL Queries",
+            "description" : "Group",
+            "tooltip" : "Group",
+            "id" : "2ace85be-2dbd-04c8-0944-d364c5eaae72",
+            "properties" : [ ]
+          }
+        ],
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E"
+      },
+      {
+        "id" : "254bda29-9941-a0cc-b087-e8e885a34210",
+        "meta" : "CDA",
+        "meta_conntype" : "sql.jndi",
+        "meta_datype" : "sql",
+        "parent" : "SQL",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "parcelas_vencidas",
+            "description" : "Name",
+            "tooltip" : "Name",
+            "order" : 5,
+            "classType" : "",
+            "id" : "4a9fcb08-6cf5-decc-8f26-8039a56adc01"
+          },
+          {
+            "name" : "access",
+            "type" : "Access",
+            "value" : "public",
+            "description" : "Access Level",
+            "tooltip" : "The Access Level (Scope) for this data access",
+            "order" : 11,
+            "classType" : "",
+            "id" : "1a24285e-7010-ee9f-7c2c-7ed18dcb4d5f"
+          },
+          {
+            "name" : "jndi",
+            "type" : "Jndi",
+            "value" : "base_operacional",
+            "description" : "Jndi",
+            "tooltip" : "JNDI string for the desired connection",
+            "order" : 21,
+            "classType" : "",
+            "id" : "cd8268a8-8c2e-b1a2-7d4a-19b4ca41b30a"
+          },
+          {
+            "name" : "query",
+            "type" : "SqlQuery",
+            "value" : "select \n    EXTRACT(month FROM dt_vcto)::text || \u0027/\u0027 || EXTRACT(year FROM dt_vcto)::text as periodo, \n\tsum(vl_par) as valor\nfrom parcela p \nwhere p.vl_pago is null \nand p.dt_vcto \u003C= current_date\ngroup by 1",
+            "description" : "Query",
+            "tooltip" : "Query to be executed in the selected datasource",
+            "order" : 24,
+            "classType" : "",
+            "id" : "d13cd3f5-c49f-8aec-af8f-c607038cc625"
+          },
+          {
+            "name" : "parameters",
+            "type" : "CdaParameters",
+            "value" : "[]",
+            "description" : "Parameters",
+            "tooltip" : "Parameters to be sent to the datasource",
+            "order" : 28,
+            "classType" : "",
+            "id" : "762d220f-9b13-5aba-521a-06da936a2efb"
+          },
+          {
+            "name" : "cdacalculatedcolumns",
+            "type" : "CdaCalculatedColumnsArray",
+            "value" : "[]",
+            "description" : "Calculated Columns",
+            "tooltip" : "Define formula based columns to be evaluated",
+            "order" : 40,
+            "classType" : "",
+            "id" : "8f65c2c9-02f5-6550-4f27-88763ba88db3"
+          },
+          {
+            "name" : "cdacolumns",
+            "type" : "CdaColumnsArray",
+            "value" : "[]",
+            "description" : "Columns",
+            "tooltip" : "Change the columns default names",
+            "order" : 40,
+            "classType" : "",
+            "id" : "15e07eb9-99ec-e217-0f00-a2e5675a63dd"
+          },
+          {
+            "name" : "output",
+            "type" : "IndexArray",
+            "value" : "[]",
+            "description" : "Output Columns",
+            "tooltip" : "Choose which columns to include/exclude, depending on the Output Mode selected",
+            "order" : 40,
+            "classType" : "",
+            "id" : "fa02da2c-e121-23be-bd71-bd2ce7d788d6"
+          },
+          {
+            "name" : "outputMode",
+            "type" : "OutputMode",
+            "value" : "include",
+            "description" : "Output Mode",
+            "tooltip" : "Whether the output columns refer to columns that should be Included or Excluded from the final output",
+            "order" : 40,
+            "classType" : "",
+            "id" : "ea828ede-1c20-cf09-2a98-57aa8ce4d7ed"
+          },
+          {
+            "name" : "cacheKeys",
+            "type" : "CacheKeysValues",
+            "value" : "[]",
+            "description" : "Cache Keys",
+            "tooltip" : "Define System Wide Cache Keys",
+            "order" : 45,
+            "classType" : "",
+            "id" : "56890e4e-eabb-8e39-40a1-83f05aa3dce5"
+          },
+          {
+            "name" : "cacheDuration",
+            "type" : "Integer",
+            "value" : 3600,
+            "description" : "Cache Duration",
+            "tooltip" : "Cache Duration, in seconds",
+            "order" : 50,
+            "classType" : "",
+            "id" : "9169cddb-3e6c-14ee-d0a1-54f20d00c8f7"
+          },
+          {
+            "name" : "cache",
+            "type" : "Boolean",
+            "value" : "true",
+            "description" : "Cache",
+            "tooltip" : "Is this data access\u0027s output supposed to be cached?",
+            "order" : 91,
+            "classType" : "",
+            "id" : "466ea676-348d-619a-887d-da1f85ed380c"
+          }
+        ],
+        "rowName" : "sql over sqlJndi",
+        "type" : "Componentssql_sqlJndi",
+        "typeDesc" : "sql over sqlJndi"
+      }
+    ]
+  },
+  "layout" : {
+    "rows" : [
+      {
+        "id" : "1d51f130-cab0-79fa-fd2f-c5c0be279529",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Header",
+            "id" : "020c3e5a-70a5-dbf9-1d7c-5c7abf4655fb"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "",
+            "id" : "1407e1d7-1029-62c1-9eb6-0a026817f5fb"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "",
+            "id" : "221981d3-2277-55d6-99e5-fa26ea65bc9a"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "",
+            "id" : "aef0d1be-e1e7-46e2-44f3-d638782ac282"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : "",
+            "id" : "f17c8373-f745-1e0a-860b-06f9b79ac73f"
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : "",
+            "id" : "c27350a4-a6f5-396c-4c3b-dfdbeb7cf8a8"
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "54a44da1-7877-627d-a0da-d4c43078de19",
+        "parent" : "1d51f130-cab0-79fa-fd2f-c5c0be279529",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "",
+            "id" : "70bab6b5-f6f9-6917-d219-591645e45c74"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "12",
+            "id" : "bab7e655-657b-40e9-1494-0d5baa885965"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : "",
+            "id" : "4b2c5b22-4842-69d7-19ee-18d2af5cd9a7"
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : "",
+            "id" : "545a18bb-3543-f7de-56d0-fa1c12afad9d"
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : "",
+            "id" : "df604e5d-2cb5-b043-230b-ca3f5e72daec"
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : "",
+            "id" : "380fa678-14fe-8695-a73c-bb55a68ae438"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "60",
+            "id" : "1381f7fb-3e07-050e-c42e-4b5050e7c8ff"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#005ac7",
+            "id" : "39a94ebc-8a8b-4e9e-b93c-ae3eaf1d746a"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round",
+            "id" : "826e854a-af6f-c5f5-15f1-487f6e0bc541"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : "center",
+            "id" : "c0fbbed1-b7d0-de7a-7bb1-4e77f3c9ddee"
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : "",
+            "id" : "cba408e5-7058-905f-c430-59b5da98e517"
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "1acdaaf4-3437-a8aa-0369-5b85b216a2a1",
+        "parent" : "54a44da1-7877-627d-a0da-d4c43078de19",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "",
+            "id" : "fb7eb149-a59d-4e81-e666-5c687241022f"
+          },
+          {
+            "classType" : "",
+            "description" : "HTML",
+            "name" : "html",
+            "order" : 15,
+            "tooltip" : "Html code to be added",
+            "type" : "Html",
+            "value" : "\u003Ch2 style=\u0022color:#FFFFFF;\u0022\u003EDashboard generated with CDE\u003C/h2\u003E ",
+            "id" : "0a721d0a-e7ad-01ed-0729-1640c226a639"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "Font Size",
+            "name" : "fontSize",
+            "order" : 49,
+            "tooltip" : "Font size, in pixels ",
+            "type" : "Integer",
+            "value" : "",
+            "id" : "f4488b0a-0a9e-4a42-dbe4-0eccee115230"
+          },
+          {
+            "classType" : "",
+            "description" : "Color",
+            "name" : "color",
+            "order" : 55,
+            "tooltip" : "Element color",
+            "type" : "Color",
+            "value" : "",
+            "id" : "7aa6d2ee-c535-cacd-dea1-686e788ad015"
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : "",
+            "id" : "ce993676-50ae-6f28-6509-13be2b7c5ac6"
+          }
+        ],
+        "type" : "LayoutHtml",
+        "typeDesc" : "Html"
+      },
+      {
+        "id" : "72a8717f-9e1d-fdaf-06b1-8bd96f159f7f",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Spacer",
+            "id" : "5d0d4bc8-3371-43e9-df6d-6f6091f320e8"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "5",
+            "id" : "e8175bf7-f9dd-29ec-9544-a58f8977bc34"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "",
+            "id" : "3c62898c-0c08-90fc-4332-54a012855a95"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "",
+            "id" : "aa8225dc-a533-5bc4-9e1d-01566c2634a0"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : "",
+            "id" : "ce3f428c-9122-ab11-787b-06767a050fef"
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : "",
+            "id" : "a17b05bc-8560-d0ad-389d-59994e40fdae"
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "bc19af30-9a5f-7f04-d630-4b91593b8e24",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "94b6ae6a-1675-d442-4689-ff4314315948",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Body"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "127e7eb4-ae6e-2a1f-c34f-9188ee2b4083",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "cbd0851f-e564-0d97-5ffe-b6e1351605c4",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "20d3ce40-2887-8cc0-05a6-f80d2523cb48",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "13271caf-3277-4106-a276-24972f94f3a9",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "f5b40e60-b0d9-5732-5423-d107d2273043",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "5f43618c-4c5d-58cc-04aa-957a97b49077",
+        "parent" : "bc19af30-9a5f-7f04-d630-4b91593b8e24",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "a1e128a7-4e4b-3169-06a8-d9c845c4ce22",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Body_Content"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "id" : "f1cd2ccb-03c0-28d3-3db2-39b7e79bf67a",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "12"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "id" : "84239cd9-df98-ce76-3837-6a6f25294ae6",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "id" : "1d0d1e31-670c-9776-750d-03414c220381",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "id" : "dc60f236-13d4-bfbb-89ce-bf43a6b3c788",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "id" : "1a4c4b8d-0bd2-9505-6966-56d31da90c81",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "ad97e452-b6fd-0d86-a5ec-d7205d65fa95",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "83b7e792-90f8-5a45-cf88-75457abed1e7",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "7d069653-6c0f-b1cd-91d0-b84a93e976d1",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "5c7f9942-ffce-68ad-8eb6-33001143cad2",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "96fbb9a6-52dd-3c09-58aa-a5909c44eac4",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "40931db6-99f8-00bc-e324-71abd7f77567",
+        "parent" : "5f43618c-4c5d-58cc-04aa-957a97b49077",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "df5c4e6e-04b7-2636-3080-e183c5a12f38",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Row_1"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "d06ff6af-1289-b0bc-5de1-0d4ddeeac834",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "7bab1c8e-3b0a-2227-6700-4b651fbc1f86",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "384fd49e-9f61-3c2c-0ec1-2d7c77571de5",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "973b2593-80c5-3cfc-3fb5-ee8d201cb5a9",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "4d73eb64-9246-3ed6-ac32-bac54e051788",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "4913c44b-ee54-9618-4fe1-01f904f8f31b",
+        "parent" : "40931db6-99f8-00bc-e324-71abd7f77567",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "60759452-41c5-4974-59f0-5955b9444bcb",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Panel_1"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "id" : "4632ea56-4843-9f42-8e3d-f8065db50602",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "6"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "id" : "3aa40c1f-bf74-ff2d-2801-bca2649d5d5b",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "id" : "1ac84b9f-ffb0-126d-ff2e-3ed583ba8735",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "id" : "bb03527c-8cbb-b10b-3b71-a143ad2469d5",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "id" : "e728604d-aeae-bd42-8e6a-619d06a4cd53",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "ed7d7232-fed2-09a6-cf6f-7e59d94f1cb4",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "195"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "c9217a13-dd7f-0827-67b2-3cba1073941f",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#eaedee"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "23d89f90-f9bc-e2ad-f90a-fca8c4b3bc6c",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "b48522fc-21f2-cb9c-2e5e-d86879715017",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "d54b3e42-070a-d36d-a8c5-9cd06fce89a8",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "d1753ca5-6686-c243-e6fe-ea95c992c945",
+        "parent" : "40931db6-99f8-00bc-e324-71abd7f77567",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "11db9cab-1863-b7a4-c72d-15db7ce694d7",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Panel_2"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "id" : "e0beae96-4648-12f8-09e6-2a0c5be10c3f",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "6"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "id" : "9659f39c-7e64-e9fd-db7b-3139f8e03dca",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "id" : "0d445c38-f3b6-9592-73c8-9916eb4e99a1",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "id" : "49eae8d0-fdb5-c1d2-fa08-d4c2bc25306e",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "id" : "1707dc55-f0db-9cb7-a2e5-c783b91adc0f",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "db5e32ee-329e-01e7-092f-ccb84996dac6",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "195"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "3952496c-242d-ed89-90d1-a12710992414",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#eaedee"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "fd29078a-3ef2-3a0f-1dc3-2bc327fa9576",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "87b36a08-e4c5-47d1-40be-d9665fa3e5d9",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "338df3d2-3e6a-10a0-f5ec-37faad14e5fe",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "e6c2607f-700e-1490-54b4-a300214d89ee",
+        "parent" : "5f43618c-4c5d-58cc-04aa-957a97b49077",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "41bb7b49-0173-3355-4cec-a387432bcb77",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Spacer_2"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "099c0102-fd81-33b4-b516-e1ad782788d8",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "10"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "fddeef09-71b5-9b89-6a26-2b1ed818762c",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "0a5b759d-7a4f-484d-40bc-4cac0bb727ba",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "f125c6d3-6301-0721-316b-7ff0a6b81642",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "ca3ac70b-c05c-064a-24b8-18cb33540cea",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "f66c8186-8f5f-b874-2149-761db79e3a62",
+        "parent" : "5f43618c-4c5d-58cc-04aa-957a97b49077",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "17b1d109-4e62-b39e-7774-3d427f395158",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Row_2"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "26d0a3c1-2d9b-27a7-c04e-006ceb50fc7d",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "ec720a72-ea09-08bd-af99-4c2506353db9",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "1d338ee5-0c6e-9294-7703-1d9dc834467d",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "aeca6a30-f0b6-4f6a-5dc5-3e7fae5eb195",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "3bfe6bff-3213-d3e0-5806-b0decb9b0f42",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "b24466c0-d78b-bbfe-7670-b7d82f652dfa",
+        "parent" : "f66c8186-8f5f-b874-2149-761db79e3a62",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "a97234dc-0d26-18df-ad70-2cf70bd9799d",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Panel_3"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "id" : "32b83c85-6d1a-0dd2-7a40-0b4d0ab8ee2c",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "6"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "id" : "61dae932-fa67-0269-0402-458684aea9e4",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "id" : "7c787a4d-bd54-73bd-9d4c-7e7f3fd8a19d",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "id" : "7106610a-8d64-33aa-d5f2-28322c5828df",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "id" : "9605df64-7e3d-29ab-cc35-483ca9f65f93",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "71ec95b3-6441-031d-600b-47959a729cad",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "195"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "cad303c4-6e05-a52f-f276-a025309a2a3b",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#eaedee"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "54b9091c-a957-8fe3-1420-8d56447dc298",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "4027704b-d3e0-6924-3fc2-8e492ae806d5",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "39549bf9-2ac3-dcb3-d2ad-110d1b8c22d9",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "efb2b8c5-8497-75b7-c31c-9e6a4339a413",
+        "parent" : "f66c8186-8f5f-b874-2149-761db79e3a62",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "id" : "c3d2a81e-a6c3-280a-1e2d-505a2af9a319",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Panel_4"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "id" : "f6907ebe-ad79-c2dc-1241-d38aa651d700",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "6"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "id" : "8fc1c614-bc24-e5f6-4776-37f8f039dde3",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "id" : "aba0bbcb-6271-6638-5725-ac05601ff6a5",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "id" : "33571d3d-4c56-58ff-0c92-6b3865851aa5",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "id" : "acd4426c-41f4-211e-8109-f0fa0aeb3546",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "id" : "0b158fae-53d0-0ae7-f051-6bcda233c192",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "195"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "id" : "455be45b-142e-7e97-b46f-048580ca940a",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#eaedee"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "id" : "7bba2ea6-915e-3739-787c-bc793323bee4",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "id" : "6c091662-87d5-a1ae-3222-0317abad132f",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "id" : "476d841d-c61c-ec60-07c0-158872922ca8",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "5839b3da-fbf1-5908-b6c0-1efef76b9a80",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Small_Space"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "5"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "5e522c83-0c3d-fc75-7ba3-f77eee2742d8",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Footer"
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "50"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "9c451be0-653e-7c4f-1fcc-93db72d9d7eb",
+        "parent" : "5e522c83-0c3d-fc75-7ba3-f77eee2742d8",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : "Footer_Image"
+          },
+          {
+            "classType" : "",
+            "description" : "Extra Small Devices",
+            "name" : "bootstrapExtraSmall",
+            "order" : 30,
+            "tooltip" : "Bootstrap Extra Small Devices Property",
+            "type" : "String",
+            "value" : "12"
+          },
+          {
+            "classType" : "",
+            "description" : "Small Devices",
+            "name" : "bootstrapSmall",
+            "order" : 31,
+            "tooltip" : "Bootstrap Small Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Medium Devices",
+            "name" : "bootstrapMedium",
+            "order" : 32,
+            "tooltip" : "Bootstrap Medium Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Large Devices",
+            "name" : "bootstrapLarge",
+            "order" : 33,
+            "tooltip" : "Bootstrap Large Devices Property",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Bootstrap Css Class",
+            "name" : "bootstrapCssClass",
+            "order" : 34,
+            "tooltip" : "Bootstrap Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Height",
+            "name" : "height",
+            "order" : 50,
+            "tooltip" : "Element height, in pixels ",
+            "type" : "Integer",
+            "value" : "50"
+          },
+          {
+            "classType" : "advanced",
+            "description" : "BackgroundColor",
+            "name" : "backgroundColor",
+            "order" : 56,
+            "tooltip" : "Element background color",
+            "type" : "Color",
+            "value" : "#eaedee"
+          },
+          {
+            "classType" : "",
+            "description" : "Corners",
+            "name" : "roundCorners",
+            "order" : 70,
+            "tooltip" : "Corners type",
+            "type" : "RoundCorners",
+            "value" : "cdfdd-round"
+          },
+          {
+            "classType" : "",
+            "description" : "Text Align",
+            "name" : "textAlign",
+            "order" : 75,
+            "tooltip" : "Text Align",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "09c11ffd-ef65-8432-bb58-b42e334e9116",
+        "parent" : "9c451be0-653e-7c4f-1fcc-93db72d9d7eb",
+        "properties" : [
+          {
+            "classType" : "",
+            "description" : "Name",
+            "name" : "name",
+            "order" : 5,
+            "tooltip" : "Name",
+            "type" : "Id",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "HTML",
+            "name" : "html",
+            "order" : 15,
+            "tooltip" : "Html code to be added",
+            "type" : "Html",
+            "value" : "\u003Ca style=\u0022position:relative;top:9px;right:15px;float:right;\u0022 border=\u00220\u0022 title=\u0022WebDetails\u0022 href=\u0022http://www.webdetails.pt\u0022\u003E\n\u003Cimg src=\u0022images/NAV/logo_webdetails.png\u0022/\u003E\n\u003C/a\u003E "
+          },
+          {
+            "classType" : "advanced",
+            "description" : "Font Size",
+            "name" : "fontSize",
+            "order" : 49,
+            "tooltip" : "Font size, in pixels ",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Color",
+            "name" : "color",
+            "order" : 55,
+            "tooltip" : "Element color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "classType" : "",
+            "description" : "Css Class",
+            "name" : "cssClass",
+            "order" : 80,
+            "tooltip" : "Css Class to be used when this element is rendered",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutHtml",
+        "typeDesc" : "Html"
+      }
+    ],
+    "title" : "4 Columns Template"
+  },
+  "filename" : "/public/sad_tmp.wcdf"
+}

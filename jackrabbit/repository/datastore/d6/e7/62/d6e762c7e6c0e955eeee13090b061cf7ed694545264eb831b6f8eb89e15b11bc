@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="parcelas_vencidas" type="sql.jndi">
+         <Jndi>base_operacional</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" connection="parcelas_vencidas" id="parcelas_vencidas"
+               type="sql">
+      <Name>parcelas_vencidas</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[select 
+    EXTRACT(year FROM dt_vcto) as ano, 
+	EXTRACT(month FROM dt_vcto) as mes, 
+	EXTRACT(day FROM dt_vcto) as dia,
+	sum(vl_par)
+from parcela p 
+where p.vl_pago is null 
+and p.dt_vcto <= current_date
+group by 1,2,3]]></Query>
+   </DataAccess>
+</CDADescriptor>
