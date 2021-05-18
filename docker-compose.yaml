@@ -25,7 +25,7 @@ services:
     volumes:
       - pentaho-pg-data:/var/lib/postgresql/data/pgdata
     ports:
-      - 5432:5432
+      - 5444:5432
 
 volumes:
   pentaho-hsqldb-data:
