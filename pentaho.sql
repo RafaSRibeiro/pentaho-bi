@@ -102,26 +102,10 @@ VENDEDOR2	30	6477
 --
 
 COPY public.parcelas_previstas (periodo, quantidade, valor) FROM stdin;
-2021/5	5	2160
 2021/9	1	180
 2021/8	1	180
 2021/7	1	340
 2021/5	5	2160
-2021/9	1	180
-2021/8	1	180
-2021/7	1	340
-2021/5	5	2160
-2021/9	1	180
-2021/8	1	180
-2021/7	1	340
-2021/5	5	2160
-2021/9	1	180
-2021/8	1	180
-2021/7	1	340
-2021/5	5	2160
-2021/9	1	180
-2021/8	1	180
-2021/7	1	340
 \.
 
 
@@ -130,12 +114,6 @@ COPY public.parcelas_previstas (periodo, quantidade, valor) FROM stdin;
 --
 
 COPY public.parcelas_vencidas (periodo, quantidade, valor) FROM stdin;
-2021/2	8	1440
-2021/4	16	6530
-2021/2	8	1440
-2021/4	16	6530
-2021/2	8	1440
-2021/4	16	6530
 2021/2	8	1440
 2021/4	16	6530
 \.
