@@ -25,13 +25,25 @@
          <Url>jdbc:postgresql://pentaho-pg:5432/pentaho</Url>
          <User>pentaho</User>
       </Connection>
-      <Connection id="vendas_por_cliente" type="sql.jdbc">
+      <Connection id="vendas_por_cliente_count" type="sql.jdbc">
          <Driver>org.postgresql.Driver</Driver>
          <Pass>password</Pass>
          <Url>jdbc:postgresql://pentaho-pg:5432/pentaho</Url>
          <User>pentaho</User>
       </Connection>
-      <Connection id="vendas_por_loja" type="sql.jdbc">
+      <Connection id="vendas_por_cliente_sum" type="sql.jdbc">
+         <Driver>org.postgresql.Driver</Driver>
+         <Pass>password</Pass>
+         <Url>jdbc:postgresql://pentaho-pg:5432/pentaho</Url>
+         <User>pentaho</User>
+      </Connection>
+      <Connection id="vendas_por_loja_sum" type="sql.jdbc">
+         <Driver>org.postgresql.Driver</Driver>
+         <Pass>password</Pass>
+         <Url>jdbc:postgresql://pentaho-pg:5432/pentaho</Url>
+         <User>pentaho</User>
+      </Connection>
+      <Connection id="vendas_por_loja_count" type="sql.jdbc">
          <Driver>org.postgresql.Driver</Driver>
          <Pass>password</Pass>
          <Url>jdbc:postgresql://pentaho-pg:5432/pentaho</Url>
@@ -85,20 +97,38 @@
       <Parameters/>
       <Query><![CDATA[SELECT * FROM public.parcelas_vencidas]]></Query>
    </DataAccess>
-   <DataAccess access="public" connection="vendas_por_cliente" id="vendas_por_cliente"
+   <DataAccess access="public" connection="vendas_por_cliente_count"
+               id="vendas_por_cliente_count"
                type="sql">
-      <Name>vendas_por_cliente</Name>
+      <Name>vendas_por_cliente_count</Name>
       <Cache duration="3600" enabled="true"/>
       <Columns/>
       <Parameters/>
-      <Query><![CDATA[SELECT cliente, count as quantidade, valor FROM public.vendas_por_loja_cliente]]></Query>
+      <Query><![CDATA[SELECT cliente, count as quantidade FROM public.vendas_por_loja_cliente]]></Query>
    </DataAccess>
-   <DataAccess access="public" connection="vendas_por_loja" id="vendas_por_loja" type="sql">
-      <Name>vendas_por_loja</Name>
+   <DataAccess access="public" connection="vendas_por_cliente_sum" id="vendas_por_cliente_sum"
+               type="sql">
+      <Name>vendas_por_cliente_sum</Name>
       <Cache duration="3600" enabled="true"/>
       <Columns/>
       <Parameters/>
-      <Query><![CDATA[SELECT loja, count as quantidade, valor FROM public.vendas_por_loja_cliente]]></Query>
+      <Query><![CDATA[SELECT cliente, valor FROM public.vendas_por_loja_cliente]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="vendas_por_loja_sum" id="vendas_por_loja_sum"
+               type="sql">
+      <Name>vendas_por_loja_sum</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[SELECT loja, valor FROM public.vendas_por_loja_cliente]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="vendas_por_loja_count" id="vendas_por_loja_count"
+               type="sql">
+      <Name>vendas_por_loja_count</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[SELECT loja, count as quantidade FROM public.vendas_por_loja_cliente]]></Query>
    </DataAccess>
    <DataAccess access="public" connection="vendas_por_loja_cliente"
                id="vendas_por_loja_cliente"
