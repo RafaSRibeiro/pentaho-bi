@@ -101,26 +101,10 @@ INSERT INTO public.parcelas_pagas_por_vendedor (vendedor, count, sum) VALUES
 --
 
 INSERT INTO public.parcelas_previstas (periodo, quantidade, valor) VALUES
-('2021/5',	5,	2160),
 ('2021/9',	1,	180),
 ('2021/8',	1,	180),
 ('2021/7',	1,	340),
-('2021/5',	5,	2160),
-('2021/9',	1,	180),
-('2021/8',	1,	180),
-('2021/7',	1,	340),
-('2021/5',	5,	2160),
-('2021/9',	1,	180),
-('2021/8',	1,	180),
-('2021/7',	1,	340),
-('2021/5',	5,	2160),
-('2021/9',	1,	180),
-('2021/8',	1,	180),
-('2021/7',	1,	340),
-('2021/5',	5,	2160),
-('2021/9',	1,	180),
-('2021/8',	1,	180),
-('2021/7',	1,	340);
+('2021/5',	5,	2160);
 
 
 --
@@ -128,14 +112,8 @@ INSERT INTO public.parcelas_previstas (periodo, quantidade, valor) VALUES
 --
 
 INSERT INTO public.parcelas_vencidas (periodo, quantidade, valor) VALUES
-('2021/2',	8	,1440),
-('2021/4',	16,	6530),
-('2021/2',	8	,1440),
-('2021/4',	16,	6530),
-('2021/2',	8	,1440),
-('2021/4',	16,	6530),
-('2021/2',	8	,1440),
-('2021/4',	16,	6530);
+('2021/2', 8, 1440),
+('2021/4', 16, 6530);
 
 
 --
@@ -149,7 +127,7 @@ INSERT INTO public.vendas_por_loja_cliente (loja, cliente, count, valor) VALUES
 ('LOJA2',	'CLIENTE5',	2,	2010),
 ('LOJA3',	'CLIENTE7',	4,	5385),
 ('LOJA3',	'CLIENTE8',	5,	8325),
-('LOJA3',	'CLIENTE10',	2,	2700),
+('LOJA3',	'CLIENTE10', 2,	2700),
 ('LOJA2',	'CLIENTE3',	2,	3045),
 ('LOJA2',	'CLIENTE6',	2,	6960),
 ('LOJA1',	'CLIENTE3',	3,	5910),
