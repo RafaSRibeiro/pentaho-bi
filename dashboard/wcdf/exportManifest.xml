@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="19-05-2021 12:58:15 GMT" exportBy="admin" rootFolder="/public/" manifestVersion="2"/>
+    <ExportManifestEntity path="dashboard.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="dashboard.wcdf" createdDate="2021-05-18T17:45:21.185Z" isFolder="false" path="dashboard.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="dashboard" title="dashboard"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>
